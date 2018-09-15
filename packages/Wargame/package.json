@@ -1,0 +1,14 @@
+{
+  "name": "wargame",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "client": "webpack-dev-server --mode development --open --hot",
+    "server": "cd Server && yarn start"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
