@@ -7,7 +7,13 @@
   "author": "rbaxter <rbaxter.08@gmail.com>",
   "license": "MIT",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lerna": "^3.4.0"
+  },
+  "scripts": {
+    "lint": "yarn lerna run lint"
   }
 }
