@@ -1,0 +1,13 @@
+{
+  "name": "baxter-mono",
+  "version": "1.0.0",
+  "description": "Mono Repo for Baxter's projects",
+  "main": "index.js",
+  "repository": "https://github.com/rbaxter08/baxter-mono-repo.git",
+  "author": "rbaxter <rbaxter.08@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.4.0"
+  }
+}

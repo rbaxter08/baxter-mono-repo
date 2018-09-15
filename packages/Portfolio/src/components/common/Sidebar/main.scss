@@ -1,0 +1,18 @@
+#app-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  background-color: darkgray;
+}
+
+.sidebar-item {
+  margin: 20px;
+  color: white;
+}
+
+.selected-tab {
+  background-color: lightgray;
+}

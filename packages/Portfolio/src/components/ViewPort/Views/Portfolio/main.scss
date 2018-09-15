@@ -1,0 +1,29 @@
+#portfolio-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  overflow-y: auto;
+}
+
+#item-input {
+  display: flex;
+}
+
+#name-input {
+  min-width: 350px;
+}
+
+#percent-input {
+  width: 70px;
+}
+
+#add-item-btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.drop-down-icon {
+  margin-right: 10px;
+}

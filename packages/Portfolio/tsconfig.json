@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "@Common/*": ["src/components/common/*"],
+      "@Services/*": ["src/services/*"],
+      "@Store/*": ["src/redux/*"]
+    }
+  }
+}

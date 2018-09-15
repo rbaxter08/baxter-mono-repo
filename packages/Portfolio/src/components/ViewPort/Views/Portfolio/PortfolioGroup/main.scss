@@ -1,0 +1,27 @@
+.portfolio-group {
+  margin: 20px;
+  border: 1px solid lightgray;
+}
+
+.portfolio-group-header {
+  margin: 0 !important;
+}
+
+.portfolio-group-header > * {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfolio-group-item {
+  margin: 10px;
+}
+
+.toolbar-title {
+  margin-left: 10px;
+}
+
+.drop-down-icon {
+  margin-left: 10px;
+}
