@@ -1,0 +1,23 @@
+#portfolio {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.portfolio-group {
+  width: 80%;
+  margin: 20px;
+}
+
+.portfolio-group-header {
+  margin: 0 !important;
+}
+
+.portfolio-group-header > * {
+  margin: 5px;
+}
+
+.portfolio-group-item {
+  margin: 20px;
+}

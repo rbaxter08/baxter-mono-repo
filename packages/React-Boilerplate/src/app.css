@@ -1,0 +1,27 @@
+html, body, #app {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+#app-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+#app-sidebar {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
+}
+
+#app-viewport {
+  flex: 5;
+  height: 100%;
+  width: 100%;
+}
